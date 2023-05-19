@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
+.wrapper-content {
+    box-sizing: border-box;
+    width: 1024px;
+  }
+  .header-content {
+    background-color: #bbc5d3;
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    /*平均分配寬度，第一項和最後一項貼齊邊緣*/
+    align-items: center;
+    /*對齊交錯軸線中央*/
+  }
+  .header-nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body {
+    padding:0px 0px 0px 0px;
+    font-family: "Noto sans TC", sans-serif;
+    letter-spacing: 2px;
+    color: #333;
+    line-height: 1.4;
+
+  }
+
+  a {
+    font-family: "Noto sans TC", sans-serif;
+    color: #000;
+  }
+  .logo {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 24px;
+    color: #000;
+    text-decoration: underline;
+  }
+  .link__text:hover {
+    transition: all 0.3s;    /* 轉場效果 */
+    color: #5e718a;
+  }
+
+  
